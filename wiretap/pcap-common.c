@@ -433,6 +433,9 @@ static const struct {
 	/* IPMI Trace Data Collection */
 	{ 260,		WTAP_ENCAP_IPMI_TRACE },
 
+	/* kdbus */
+	{ 263,		WTAP_ENCAP_KDBUS },
+
 	/*
 	 * To repeat:
 	 *

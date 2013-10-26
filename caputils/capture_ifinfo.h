@@ -38,6 +38,7 @@ typedef enum {
 	IF_WIRELESS,
 	IF_DIALUP,
 	IF_USB,
+	IF_KDBUS,
 #ifdef HAVE_EXTCAP
 	IF_EXTCAP,
 #endif

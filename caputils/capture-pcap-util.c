@@ -216,6 +216,8 @@ add_unix_interface_ifinfo(if_info_t *if_info, const char *name,
 			if_info->type = IF_BLUETOOTH;
 		} else if (strstr(name, "usbmon") != NULL)
 			if_info->type = IF_USB;
+		else if (strstr(name, "kdbus") != NULL)
+			if_info->type = IF_KDBUS;
 	}
 }
 #else
